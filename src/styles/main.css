@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes typ-k-gIpqIT {
+@keyframes animation-highlight {
   0% {
-    left: -50%;
+    left: -100%;
     opacity: 0;
   }
   50% {

@@ -15,7 +15,8 @@ module.exports = {
       matchUtilities(
         {
           highlight: (value) => {
-            const { color } = parseColor(value)
+            const { color } = parseColor(value);
+            console.log(color);
 
             return {
               content: '""',
@@ -24,8 +25,8 @@ module.exports = {
               left: '-50%',
               width: '100%',
               height: '100%',
-              background: `linear-gradient(90deg, rgba(${color[0]} ${color[1]} ${color[2]} / 0) 0%, rgba(${color[0]} ${color[1]} ${color[2]} / 0.45) 40%, rgba(${color[0]} ${color[1]} ${color[2]} / 0.45) 60%, rgba(${color[0]} ${color[1]} ${color[2]} / 0) 100%)`,
-              animation: '1s ease-in-out 0s infinite normal forwards running typ-k-gIpqIT',
+              background: `linear-gradient(246deg, rgba(${color[0]},${color[1]},${color[2]},0) 16%, rgba(${color[0]},${color[1]},${color[2]},0.56) 36%, rgba(${color[0]},${color[1]},${color[2]},0.56) 56%, rgba(${color[0]},${color[1]},${color[2]},0) 86%)`,
+              animation: '1s ease-in-out 0s infinite normal forwards running animation-highlight',
               'pointer-events': 'none',
             }
           },
