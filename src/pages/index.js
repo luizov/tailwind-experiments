@@ -28,7 +28,7 @@ export default function Home() {
                   Button
                 </span>
               </button>
-              <button className="btn bg-slate-200 hover:after:highlight-white">
+              <button className="btn bg-slate-200 btn-highlight-white">
                 <span className="z-10 flex w-full items-center justify-center text-slate-800">
                   Button
                 </span>
@@ -47,13 +47,38 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="pt-24 pb-32 bg-yellow-100">
+        <section className="pt-24 pb-32 bg-zinc-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <span className="flex h-32 w-32 bg-lime-400 overflow-hidden relative">
-              1234
-            </span>
+            <div className="max-w-2xl mb-12">
+              <h2 className="text-3xl text-zinc-50 font-semibold">
+                Buttons with sheen effect
+              </h2>
+            </div>
+            <div className="flex items-center gap-8">
+              <button className="btn bg-lime-500 btn-sheen-[#D3F02D]">
+                <span className="z-10 flex w-full items-center justify-center">
+                  Button
+                </span>
+              </button>
+              <button className="btn bg-blue-500 btn-sheen-[#32D8FD]">
+                <span className="z-10 flex w-full items-center justify-center text-white">
+                  Button
+                </span>
+              </button>
+              <button className="btn bg-sky-500 btn-sheen-[#32D8FD]">
+                <span className="z-10 flex w-full items-center justify-center text-white">
+                  Button
+                </span>
+              </button>
+              <button className="btn bg-purple-500 btn-sheen-[#EE83FF]">
+                <span className="z-10 flex w-full items-center justify-center text-white">
+                  Button
+                </span>
+              </button>
+            </div>
           </div>
         </section>
+
       </main>
     </>
   )
