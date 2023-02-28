@@ -12,24 +12,26 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="h-full bg-white">
-        <section className="pt-24 pb-32 bg-yellow-50">
+      <main className="h-full">
+        <section className="pt-24 pb-32 bg-gradient-to-tl from-slate-900 to-slate-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="max-w-2xl mb-12">
-              <h2 className="text-xl text-black font-bold">Buttons with highlight effect</h2>
+              <h2 className="text-3xl text-white font-semibold">
+                Buttons with highlight effect
+              </h2>
             </div>
             <div className="flex items-center gap-8">
-              <button class="btn bg-[#B4CC22] hover:after:highlight-[#D3F02D]">
-                <span class="z-10 flex w-full items-center justify-center">
+              <button className="btn bg-[#B9D228] hover:after:highlight-red-200">
+                <span className="z-10 flex w-full items-center justify-center">
                   Button
                 </span>
               </button>
-              <button class="btn bg-gradient-to-t from-blue-500 to-blue-400 hover:after:highlight-[#32D8FD]">
-                <span class="z-10 flex w-full items-center justify-center text-white">
+              <button className="btn bg-gradient-to-t from-blue-500 to-blue-400 hover:after:highlight-[#32D8FD]">
+                <span className="z-10 flex w-full items-center justify-center text-white">
                   Button
                 </span>
               </button>
-              <button class="btn">Button</button>
+              <button className="btn">Button</button>
             </div>
           </div>
         </section>
