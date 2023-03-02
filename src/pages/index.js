@@ -10,35 +10,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="h-full">
-        <section className="pt-24 pb-32 bg-zinc-900">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="max-w-2xl mb-12">
-              <h2 className="text-3xl text-zinc-50 font-semibold">
+        <section className="bg-zinc-900 pt-24 pb-32">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="mb-12 max-w-2xl">
+              <h2 className="text-3xl font-semibold text-zinc-50">
                 Buttons with highlight effect
               </h2>
             </div>
             <div className="flex items-center gap-8">
-              <button className="btn bg-[#B9D228] btn-highlight-[#D3F02D]">
+              <button className="btn btn-highlight-[#D3F02D] bg-[#B9D228]">
                 <span className="z-10 flex w-full items-center justify-center">
                   Button
                 </span>
               </button>
-              <button className="btn bg-gradient-to-t from-blue-500 to-blue-400 btn-highlight-[#32D8FD]">
+              <button className="btn btn-highlight-[#32D8FD] bg-gradient-to-t from-blue-500 to-blue-400">
                 <span className="z-10 flex w-full items-center justify-center text-white">
                   Button
                 </span>
               </button>
-              <button className="btn bg-slate-200 btn-highlight-white">
+              <button className="btn btn-highlight-white bg-slate-200">
                 <span className="z-10 flex w-full items-center justify-center text-slate-800">
                   Button
                 </span>
               </button>
-              <button className="btn bg-gradient-to-t from-sky-600 to-sky-500 btn-highlight-[#32D8FD]">
+              <button className="btn btn-highlight-[#32D8FD] bg-gradient-to-t from-sky-600 to-sky-500">
                 <span className="z-10 flex w-full items-center justify-center text-white">
                   Button
                 </span>
               </button>
-              <button className="btn bg-purple-500 btn-highlight-[#EE83FF]">
+              <button className="btn btn-highlight-[#EE83FF] bg-purple-500">
                 <span className="z-10 flex w-full items-center justify-center text-white">
                   Button
                 </span>
@@ -47,48 +47,48 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="pt-24 pb-32 bg-zinc-900">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="max-w-2xl mb-12">
-              <h2 className="text-4xl text-zinc-50 font-semibold">
+        <section className="bg-zinc-900 pt-24 pb-32">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6">
+            <div className="mb-12 max-w-2xl">
+              <h2 className="text-4xl font-semibold text-zinc-50">
                 Buttons with sheen effect
               </h2>
             </div>
             <div className="flex items-center gap-16">
-              <div className="flex flex-col gap-8 items-center">
-                <button className="btn bg-lime-500 btn-sheen-[#D3F02D]">
+              <div className="flex flex-col items-center gap-8">
+                <button className="btn btn-sheen-[#D3F02D] bg-lime-500">
                   <span className="z-10 flex w-full items-center justify-center">
                     Button
                   </span>
                 </button>
                 <span className="text-white">1</span>
               </div>
-              <div className="flex flex-col gap-8 items-center">
-                <button className="btn bg-blue-500 btn-sheen-[#32D8FD]">
+              <div className="flex flex-col items-center gap-8">
+                <button className="btn btn-sheen-[#32D8FD] bg-blue-500">
                   <span className="z-10 flex w-full items-center justify-center text-white">
                     Button
                   </span>
                 </button>
                 <span className="text-white">2</span>
               </div>
-              <div className="flex flex-col gap-8 items-center">
-                <button className="btn bg-sky-500 btn-sheen-[#32D8FD]">
+              <div className="flex flex-col items-center gap-8">
+                <button className="btn btn-sheen-[#32D8FD] bg-sky-500">
                   <span className="z-10 flex w-full items-center justify-center text-white">
                     Button
                   </span>
                 </button>
-                <span className="text-white">3</span>
+                <span className="p-3 pb-2 pt-2 text-white">3</span>
               </div>
-              <div className="flex flex-col gap-8 items-center">
-                <button className="btn bg-purple-500 btn-sheen-[#EE83FF]">
+              <div className="flex flex-col items-center gap-8">
+                <button className="btn btn-sheen-[#EE83FF] bg-purple-500">
                   <span className="z-10 flex w-full items-center justify-center text-white">
                     Button
                   </span>
                 </button>
                 <span className="text-white">4</span>
               </div>
-              <div className="flex flex-col gap-8 items-center">
-                <button className="btn bg-purple-500 btn-sheen-[#EE83FF] rounded-[50px] hover:rounded-lg transition-all duration-100 ease-linear">
+              <div className="flex flex-col items-center gap-8">
+                <button className="btn btn-sheen-[#EE83FF] rounded-[50px] bg-purple-500 transition-all duration-100 ease-linear hover:rounded-lg">
                   <span className="z-10 flex w-full items-center justify-center text-white">
                     Button
                   </span>
@@ -99,15 +99,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-32 bg-zinc-800">
+        <section className="bg-zinc-800 py-32">
           <div className="mx-auto max-w-2xl">
-            <div className="w-48 h-48 rounded-xl bg-zinc-600 hover:rounded-[60px] transition-all duration-200">
-
-            </div>
+            <div className="h-48 w-48 rounded-xl bg-zinc-600 transition-all duration-200 hover:rounded-[60px]"></div>
           </div>
         </section>
-
       </main>
     </>
-  )
+  );
 }
