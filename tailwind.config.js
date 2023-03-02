@@ -1,3 +1,4 @@
+const { fontFamily } = require('tailwindcss/defaultTheme');
 const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette');
 const { parseColor } = require('tailwindcss/lib/util/color');
 
@@ -8,7 +9,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Titillium Web', ...fontFamily.sans],
+        headings: ['Titillium Web', ...fontFamily.sans],
+      },
+    },
   },
   plugins: [
     function ({ matchComponents, theme }) {
@@ -52,7 +58,8 @@ module.exports = {
 
             return {
               position: 'relative',
-              transition: '0.5s',
+              overflow: 'hidden',
+              transition: 'all 0.5s',
               '&::after': {
                 content: '""',
                 position: 'absolute',

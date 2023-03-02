@@ -50,31 +50,59 @@ export default function Home() {
         <section className="pt-24 pb-32 bg-zinc-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="max-w-2xl mb-12">
-              <h2 className="text-3xl text-zinc-50 font-semibold">
+              <h2 className="text-4xl text-zinc-50 font-semibold">
                 Buttons with sheen effect
               </h2>
             </div>
-            <div className="flex items-center gap-8">
-              <button className="btn bg-lime-500 btn-sheen-[#D3F02D]">
-                <span className="z-10 flex w-full items-center justify-center">
-                  Button
-                </span>
-              </button>
-              <button className="btn bg-blue-500 btn-sheen-[#32D8FD]">
-                <span className="z-10 flex w-full items-center justify-center text-white">
-                  Button
-                </span>
-              </button>
-              <button className="btn bg-sky-500 btn-sheen-[#32D8FD]">
-                <span className="z-10 flex w-full items-center justify-center text-white">
-                  Button
-                </span>
-              </button>
-              <button className="btn bg-purple-500 btn-sheen-[#EE83FF]">
-                <span className="z-10 flex w-full items-center justify-center text-white">
-                  Button
-                </span>
-              </button>
+            <div className="flex items-center gap-16">
+              <div className="flex flex-col gap-8 items-center">
+                <button className="btn bg-lime-500 btn-sheen-[#D3F02D]">
+                  <span className="z-10 flex w-full items-center justify-center">
+                    Button
+                  </span>
+                </button>
+                <span className="text-white">1</span>
+              </div>
+              <div className="flex flex-col gap-8 items-center">
+                <button className="btn bg-blue-500 btn-sheen-[#32D8FD]">
+                  <span className="z-10 flex w-full items-center justify-center text-white">
+                    Button
+                  </span>
+                </button>
+                <span className="text-white">2</span>
+              </div>
+              <div className="flex flex-col gap-8 items-center">
+                <button className="btn bg-sky-500 btn-sheen-[#32D8FD]">
+                  <span className="z-10 flex w-full items-center justify-center text-white">
+                    Button
+                  </span>
+                </button>
+                <span className="text-white">3</span>
+              </div>
+              <div className="flex flex-col gap-8 items-center">
+                <button className="btn bg-purple-500 btn-sheen-[#EE83FF]">
+                  <span className="z-10 flex w-full items-center justify-center text-white">
+                    Button
+                  </span>
+                </button>
+                <span className="text-white">4</span>
+              </div>
+              <div className="flex flex-col gap-8 items-center">
+                <button className="btn bg-purple-500 btn-sheen-[#EE83FF] rounded-[50px] hover:rounded-lg transition-all duration-100 ease-linear">
+                  <span className="z-10 flex w-full items-center justify-center text-white">
+                    Button
+                  </span>
+                </button>
+                <span className="text-white">5</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-32 bg-zinc-800">
+          <div className="mx-auto max-w-2xl">
+            <div className="w-48 h-48 rounded-xl bg-zinc-600 hover:rounded-[60px] transition-all duration-200">
+
             </div>
           </div>
         </section>
