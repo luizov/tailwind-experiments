@@ -69,7 +69,7 @@ export default function Home() {
                     Button
                   </span>
                 </button>
-                <span className="text-white">2</span>
+                <span className="sm:p-3 p-4 text-white">2</span>
               </div>
               <div className="flex flex-col items-center gap-8">
                 <button className="btn btn-sheen-[#32D8FD] bg-sky-500">
